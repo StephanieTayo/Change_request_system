@@ -1,0 +1,9 @@
+  <% if(data.length!=0){ %>
+                      <% for(let elem of data){ %>
+                      <tr>
+                          <% for(let key in elem) { %>  
+                          <td><%=  key%></td>
+                          <% }%>
+                          <td>delete  <strong>update</strong>  </td>
+                      </tr>
+                      <%  } }%>

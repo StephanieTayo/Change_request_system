@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Signup</title>
+    <style>
+      body {
+        background-image: url(/images/bg1.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: 200px;
+        padding: 0;
+        height: 100%;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+
+      form {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        max-width: 400px;
+        width: 90%;
+        /* color: white; */
+      }
+
+      input[type='text'],
+      input[type='email'],
+      input[type='password'] {
+        display: block;
+        margin-bottom: 10px;
+        width: 90%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        /* color: white; */
+      }
+
+      button[type='submit'] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+
+      button[type='submit']:hover {
+        background-color: #3e8e41;
+      }
+      
+      @media only screen and (max-width: 600px) {
+        form {
+          max-width: 300px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="/login" method="POST">
+        <h1>Login</h1>
+        <label for="username">Username:</label>
+        <input type="text" name="username" required />
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" required />
+
+        <button type="submit">Login</button>
+
+        <label for="">Don't have an Account ?</label>
+        <a href="/signup">Sign Up</a>
+      </form>
+    </div>
+  </body>
+</html>
