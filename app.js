@@ -17,7 +17,7 @@ app.set("view engine", "html");
 app.engine("html", ejs.renderFile);
 
 mongoose
-  .connect("mongodb+srv://joelngalamulume90:qsdfghjk@cluster0.ikvclo8.mongodb.net/wap?retryWrites=true&w=majority", {
+  .connect("INSERT_MONGO_LINK", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
