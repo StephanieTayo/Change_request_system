@@ -3,3 +3,9 @@ Change Request system allows Costomers to put in request for changes on any proj
 Allows customer to Put in request for any changes they may need made on the project.
 
 The admin is able to see placed requests and approve or disapprove the requests. 
+
+ Technologies applied; 
+ MongoDB database
+ Express
+ NodeJS 
+ Html css js jquery
