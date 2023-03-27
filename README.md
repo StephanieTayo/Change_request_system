@@ -5,7 +5,8 @@ Allows customer to Put in request for any changes they may need made on the proj
 The admin is able to see placed requests and approve or disapprove the requests. 
 
  Technologies applied; 
- MongoDB database
- Express
- NodeJS 
- Html css js jquery
+ 
+ -MongoDB database
+ -Express (Auth, bycrypt,routes)
+ -NodeJS 
+ -Html css js jquery
